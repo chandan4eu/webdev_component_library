@@ -114,6 +114,20 @@
     <button type = "button" onclick ='alert("hello world")'> click here</button>
 
     <hr>
+    <h2>@canvas used for graphics</h2>
+    <p> canvas is used for graphics , it is combindely used with script tag(script tag is used 
+        for scripting the graphics).
+    </p>
+    <canvas id= "mycanvas"> your browser doesnot support canvas(this msg is displayed only when
+        browser doesnot support canvas) </canvas>
+
+        <script>
+            var canvas = document.getElementById("mycanvas");
+            var ctx = canvas.getcontext("2d");
+            ctx.fillstyle = "#ff0000";
+            ctx.fillrect(5,5,80,80);
+
+        </script>
     
     
     <h1>will be updated soon , currently he is focusing on DSA becoz development are things of verbose type</h1>
